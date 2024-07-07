@@ -12,9 +12,7 @@ Welcome to **RockyBot**, a sophisticated news research tool designed to process 
 4. [Features](#features)
 5. [Setup and Installation](#setup-and-installation)
 6. [Usage](#usage)
-7. [Contributing](#contributing)
-8. [License](#license)
-9. [Contact](#contact)
+7. [Contact](#contact)
 
 ## Introduction
 
@@ -55,10 +53,36 @@ Follow these steps to set up and run RockyBot on your local machine:
 - Pip (Python package installer)
 - Anaconda (optional but recommended for managing virtual environments)
 
-### Installation
+### Install Dependencies
 
-1. **Clone the Repository**
+ **pip install -r requirements.txt**
 
-```bash
-git clone https://github.com/yourusername/rockybot.git
-cd rockybot
+### Set Up Environment Variables
+
+- Create a .env file in the project root directory.
+- Add your Google API key to the .env file:
+  **GOOGLE_API_KEY=your_google_api_key_here**
+
+### Usage
+  1. Run the Application
+ **streamlit run main.py**
+
+### Interact with the Application
+
+- **Enter up to three news article URLs in the sidebar.**
+- **Click "Process URLs" to load and process the articles.**
+- **Enter a question related to the articles in the main input field.**
+- **View the concise answer and sources provided by RockyBot.**
+
+### Contact
+For any inquiries or feedback, please contact:
+
+Prakash P.
+GitHub: [RockyBot-News-Research-Tool](https://github.com/Prakashpsk/RockyBot-News-Research-Tool-/edit/main/README.md)
+Email: prakash2822001@gmail.com
+LinkedIn: [Prakash P.](https://www.linkedin.com/in/prakash-p-b90262176)
+Portfolio: [Prakash P.'s Portfolio](https://www.datascienceportfol.io/prakashScientist)
+Explanation Video: [Watch Here](https://www.linkedin.com/posts/prakash-p-b90262176_machinelearning-nlp-fakenewsdetection-activity-7198888467655761920-KmOR?utm_source=share&utm_medium=member_desktop)
+
+
+
